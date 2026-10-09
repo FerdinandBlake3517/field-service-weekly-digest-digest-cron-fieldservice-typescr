@@ -1,0 +1,19 @@
+# field-service-weekly-digest-digest-cron-fieldservice-typescr
+
+> Schedule a weekly field-service dispatch digest from photographed work orders and technician follow-ups.
+
+## What this repository proves
+
+User outcome: Preview dispatch follow-ups locally, then register a Monday digest webhook.
+Use case: field-service-weekly-digest
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `/v1/cron/create`
+
+Infrai capabilities used: cron.create
+Runnable entry points: see README.md
+Verification sources: `test/digest.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt

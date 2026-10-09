@@ -1,0 +1,7 @@
+{
+  "week": "2026-W38",
+  "workOrders": [
+    {"id": "WO-101", "customer": "Market Street shop", "dispatchStatus": "unassigned", "photoUrls": ["https://example.com/wo-101.jpg"], "technicianFollowUp": ""},
+    {"id": "WO-102", "customer": "Harbor pickup desk", "dispatchStatus": "completed", "photoUrls": [], "technicianFollowUp": "Check replacement reader"}
+  ]
+}
